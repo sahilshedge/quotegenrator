@@ -1,0 +1,153 @@
+ body{
+    margin: 0px;
+    
+ }  
+.display-bar{
+    height:200px;
+    width: 800px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px 5px  rgba(238, 228, 228, 0.74);;
+}
+ .navigation{
+    height: 70px;
+    width: 1600px;
+    background-color: rgba(12, 36, 74, 1);
+    display: flex;
+}
+.navigation img{
+     padding: 20px 90px;
+}
+ .right{
+    position: relative;
+    left: 60%;
+    top: 10px;
+}
+.right button{
+    font-family: lato;
+    font-weight: 50px;
+    height: 45px;
+    width: 130px;
+    background-color: #F3BD00;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.right button:hover{
+    background-color: #e7cb65;
+   
+}
+#main-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+ font-style: normal;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size:xx-large;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ bottom: 10px;
+}
+#screen{
+    height:170px;
+    width: 750px;
+    background-color: rgba(238, 228, 228, 0.74);
+    position: relative;
+    top: 14px;
+    left: 22px;
+    border-radius: 20px;
+    font-size:30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+
+    
+
+   
+}
+#author{
+    height:40px;
+    width: 180px;
+    background-color:rgba(238, 228, 228, 0.74);
+    position: relative;
+    left: 580px;
+    bottom: 40px;
+    border-radius: 20px;
+    font-size:larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+
+
+}
+#Genrate{
+    background-color: rgb(241, 238, 6);
+    width: 800px;
+    height: 40px;
+    border-style: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: larger;
+    box-sizing: border-box;
+    border: 1px,rgb(49, 47, 47),solid;
+}
+p{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+}
+#new-quote{
+    width: 800px;
+    height: 40px;
+    border-style: none;
+    box-sizing: border-box;
+    border: 1px,rgb(49, 47, 47),solid;
+    position: relative;
+    bottom: 20px;
+    border-radius: 5px;
+}
+#quoteadd{
+    display: flex;
+    position: relative;
+    right: 8px;
+
+}
+#name{
+    width: 395px;
+    height: 40px;
+    border-style: none;
+    box-sizing: border-box;
+    border: 1px,rgb(49, 47, 47),solid;
+    position: relative;
+    bottom: 20px;
+    border-radius: 5px;
+
+}
+#add{
+    background-color: rgb(241, 238, 6);
+    width: 395px;
+    height: 40px;
+    border-style: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: larger;
+    box-sizing: border-box;
+    border: 1px,rgb(49, 47, 47),solid;
+    position: relative;
+    top: 56px;
+    left: 20px;
+}
